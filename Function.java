@@ -32,7 +32,7 @@ public class Function {
 
 		for(String esta:sections) {
             // If the line contains the pattern, add it.
-			if(esta.contains(pattern)){
+			if(esta.toLowerCase().contains(pattern)){
 				last+=esta+"\n";
 			}
 		}
