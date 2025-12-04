@@ -7,7 +7,7 @@ public class Function {
 
         // File is the last arg, pattern is the second arg
 		String archivo = args[1];
-		String pattern = args[0];
+		String pattern = args[0].toLowerCase();
 		String str1="";
 
         // Try reading the file specified
